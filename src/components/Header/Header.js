@@ -10,7 +10,7 @@ const Header = () => (
     <Div1>
       <Link href="/">
         <BrandContainer>
-          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+          <DiCssdeck size="3rem" /> <Span>Agustin <b>Karkocki</b></Span>
         </BrandContainer>
       </Link>
     </Div1>

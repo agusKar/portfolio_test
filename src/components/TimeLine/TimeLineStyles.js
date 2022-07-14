@@ -118,14 +118,16 @@ export const CarouselItemText = styled.p`
   }
 `
 export const CarouselButtons = styled.div`
-  width: 288px;
+  width: 100%;
 
   display: none;
   visibility: hidden;
+  justify-content: center;
 
   @media ${props => props.theme.breakpoints.sm} {
     display: flex;
     visibility: visible;
+    margin-top: 12px;
     margin-bottom: 48px;
   }
 `
@@ -136,7 +138,7 @@ export const CarouselButton = styled.button`
   padding: 4px;
   border: none;
   cursor: pointer;
-  margin-right: 4px;
+  margin-right: 10px;
   opacity: ${(props) => props.active === props.index ? `1` : `.33`};
   transform: ${(props) => props.active === props.index ? `scale(1.6)` : `scale(1)`};
 
@@ -149,6 +151,6 @@ export const CarouselButtonDot = styled.div`
   background-color: white;
   border-radius: 10px;
   margin: auto;
-  width: 3px;
-  height: 3px;
+  width: 15px;
+  height: 5px;
 `

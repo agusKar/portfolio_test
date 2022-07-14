@@ -1,8 +1,9 @@
 import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { ButtonBack, ButtonFront, Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
+import Button from '../../styles/GlobalComponents/Button';
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -29,7 +30,7 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={visit}>{source}</ExternalLinks>
+              <Button alt onClick={() => window.location = source}>{visit}</Button>
             </UtilityList>
           </BlogCard>
         ))

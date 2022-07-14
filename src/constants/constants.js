@@ -5,7 +5,7 @@ export const projects = [
     image: '/images/1.png',
     tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+    visit: "Google",
     id: 0,
   },
   {
@@ -14,7 +14,7 @@ export const projects = [
     image: '/images/2.png',
     tags: ['React', 'JavaScript'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+    visit: "Google",
     id: 1,
   },
   {
@@ -23,7 +23,7 @@ export const projects = [
     image: '/images/3.jpg',
     tags: ['React', 'WebRTC'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+    visit: "Google",
     id: 2,
   },
   {
@@ -32,7 +32,7 @@ export const projects = [
     image: '/images/4.jpg',
     tags: ['React', 'ChatEngine', 'Firebase'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+    visit: "Google",
     id: 3,
   },
 ];
@@ -42,5 +42,5 @@ export const TimeLineData = [
   { year: 2018, text: 'Worked as a freelance developer', },
   { year: 2019, text: 'Founded JavaScript Mastery', },
   { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2021, text: 'Shared my projects with the world', },
 ];
